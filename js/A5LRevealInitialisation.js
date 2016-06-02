@@ -4,7 +4,7 @@ Reveal.initialize({
 	controls: false,
 	progress: false,
 	loop: true,
-	transition: 'none',
+	transition: 'fade',
 	width: 1280,
 	height: 720,
 
