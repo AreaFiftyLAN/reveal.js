@@ -1,0 +1,9 @@
+#a5l-logo {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	width: 100px;
+	height: 100px;
+	background: url("../img/a5l_logo.png") no-repeat;
+	background-size: 100% 72%;
+}
