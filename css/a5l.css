@@ -7,3 +7,45 @@
 	background: url("../img/a5l_logo.png") no-repeat;
 	background-size: 100% 72%;
 }
+
+#sponsor-slide {
+	display: flex;
+}
+
+#sponsors-container {
+	display: flex;
+	flex-direction: row;
+    flex: 1;
+}
+
+#premium-sponsors-container {
+	flex: 1;
+	flex-direction: column;
+}
+
+#premium-sponsors-logos-container {
+	flex-direction: column;
+	flex: 1;
+}
+
+.premium-sponsor-logo-container {
+	display: block;
+	flex: 1;
+	background-repeat: no-repeat;
+}
+
+#normal-sponsor-container {
+	flex:1;
+}
+
+#topicus-logo {
+	background-image: url("../img/sponsors/Topicus_Logo.svg");
+}
+
+#innovattic-logo {
+	background-image: url("../img/sponsors/Innovattic_Logo.svg");
+}
+
+#keylane-logo {
+	background-image: url("../img/sponsors/Keylane_Logo.svg");
+}
