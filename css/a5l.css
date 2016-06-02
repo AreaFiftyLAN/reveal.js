@@ -18,6 +18,12 @@
     flex: 1;
 }
 
+h3.black-title,
+h5.black-title {
+	color: black;
+	text-shadow: none;
+}
+
 /*---------------------------*/
 /*      Premium Sponsors     */
 /*---------------------------*/
