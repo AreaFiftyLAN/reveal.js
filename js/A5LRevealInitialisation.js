@@ -8,6 +8,7 @@ Reveal.initialize({
 
 	// More info https://github.com/hakimel/reveal.js#dependencies
 	dependencies: [
+		{ src: 'plugin/external/external.js', condition: function() { return !!document.querySelector( '[data-external]' ); } },
 		{ src: 'plugin/markdown/marked.js' },
 		{ src: 'plugin/markdown/markdown.js' },
 		{ src: 'plugin/notes/notes.js', async: true },
