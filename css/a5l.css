@@ -18,6 +18,10 @@
     flex: 1;
 }
 
+/*---------------------------*/
+/*      Premium Sponsors     */
+/*---------------------------*/
+
 #premium-sponsors-container {
 	flex: 1;
 	flex-direction: column;
@@ -32,11 +36,42 @@
 	display: block;
 	flex: 1;
 	background-repeat: no-repeat;
+	background-position: center;
+	height: 175px;
+	background-size: 60%;
 }
 
+/*---------------------------*/
+/*     Normal Sponsors       */
+/*---------------------------*/
+
 #normal-sponsor-container {
-	flex:1;
+	flex-direction: column;
+	flex: 1;
 }
+
+#normal-sponsors-logos-container {
+	flex-direction: row;
+	flex: 1;
+}
+
+.normal-sponsors-column {
+	flex-direction: column;
+	flex: 1;
+}
+
+.normal-sponsor-logo-container {
+	display: block;
+	flex: 1;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 175px;
+	background-size: 40%;
+}
+
+/*---------------------------*/
+/*        Logo's             */
+/*---------------------------*/
 
 #topicus-logo {
 	background-image: url("../img/sponsors/Topicus_Logo.svg");
@@ -48,4 +83,28 @@
 
 #keylane-logo {
 	background-image: url("../img/sponsors/Keylane_Logo.svg");
+}
+
+#asml-logo {
+	background-image: url("../img/sponsors/ASML_logo.png");
+}
+
+#corsair-logo {
+	background-image: url("../img/sponsors/Corsair_Logo.png");
+}
+
+#ordina-logo {
+	background-image: url("../img/sponsors/Ordina-logo.png");
+}
+
+#spam-logo {
+	background-image: url("../img/sponsors/spam-logo.jpg");
+}
+
+#startselect-logo {
+	background-image: url("../img/sponsors/startselect-logo.png");
+}
+
+#transip-logo {
+	background-image: url("../img/sponsors/transip_logo.png");
 }
