@@ -5,6 +5,8 @@ Reveal.initialize({
 	progress: false,
 	loop: true,
 	transition: 'none',
+	width: 1280,
+	height: 720,
 
 	// More info https://github.com/hakimel/reveal.js#dependencies
 	dependencies: [
