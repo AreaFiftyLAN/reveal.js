@@ -66,6 +66,11 @@ h5.black-title {
 	flex: 1;
 }
 
+.normal-sponsors-column {
+	flex-direction: column;
+	flex: 1;
+}
+
 .normal-sponsor-logo-container {
 	display: block;
 	flex: 1;
