@@ -18,10 +18,21 @@
     flex: 1;
 }
 
-h3.black-title,
-h5.black-title {
+span.yellow-text{
+	color: #ffe574;
+}
+
+span.black-title{
 	color: black;
 	text-shadow: none;
+}
+
+span.warning-text{
+	color: #FF7575;
+}
+
+span.white-text{
+	color: white;
 }
 
 /*---------------------------*/
@@ -30,17 +41,20 @@ h5.black-title {
 
 #premium-sponsors-container {
 	flex: 1;
-	flex-direction: column;
+	/*flex-direction: column;*/
 }
 
 #premium-sponsors-logos-container {
-	flex-direction: column;
+	/*flex-direction: column;*/
 	flex: 1;
+	background-color: #eeecec;
 }
 
 .premium-sponsor-logo-container {
 	display: block;
 	flex: 1;
+	height: 100%;
+	margin: auto;
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 175px;
@@ -52,32 +66,30 @@ h5.black-title {
 /*---------------------------*/
 
 #normal-sponsor-container {
-	flex-direction: column;
 	flex: 1;
 }
 
 #normal-sponsors-logos-container {
 	flex-direction: row;
-	flex: 1;
+	display: flex;
+	background-color: #eeecec;
 }
 
 .normal-sponsors-column {
 	flex-direction: column;
-	flex: 1;
-}
-
-.normal-sponsors-column {
-	flex-direction: column;
+	display: flex;
 	flex: 1;
 }
 
 .normal-sponsor-logo-container {
 	display: block;
 	flex: 1;
+	flex: 33%;
+	margin: auto;
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 175px;
-	background-size: 40%;
+	background-size: 60%;
 }
 
 /*---------------------------*/
@@ -85,37 +97,44 @@ h5.black-title {
 /*---------------------------*/
 
 #topicus-logo {
-	background-image: url("../img/sponsors/Topicus_Logo.svg");
+	background-image: url("../img/sponsors/topicus_logo.svg");
 }
 
 #innovattic-logo {
-	background-image: url("../img/sponsors/Innovattic_Logo.svg");
+	background-image: url("../img/sponsors/innovattic_logo.svg");
 }
 
 #keylane-logo {
-	background-image: url("../img/sponsors/Keylane_Logo.svg");
+	background-image: url("../img/sponsors/keylane_logo.svg");
 }
 
-#asml-logo {
-	background-image: url("../img/sponsors/ASML_logo.png");
+.reveal img.spam-logo{
+	margin: -10px;
 }
 
-#corsair-logo {
-	background-image: url("../img/sponsors/Corsair_Logo.png");
+/*---------------------------*/
+/*      Just Dance           */
+/*---------------------------*/
+
+#jd-dancers-container {
+	display: flex;
+	flex-direction: row;
+	height: 440px;
 }
 
-#ordina-logo {
-	background-image: url("../img/sponsors/Ordina-logo.png");
+#jd-dancers-container img{
+	flex: 1;
 }
 
-#spam-logo {
-	background-image: url("../img/sponsors/spam-logo.jpg");
+/*---------------------------*/
+/*      Hearthstone Top 8    */
+/*---------------------------*/
+
+#hs-top8-container {
+	display: flex;
+	flex-direction: row;
 }
 
-#startselect-logo {
-	background-image: url("../img/sponsors/startselect-logo.png");
-}
-
-#transip-logo {
-	background-image: url("../img/sponsors/transip_logo.png");
+.hs-top8-column {
+	flex: 1;
 }

@@ -1,7 +1,9 @@
 // More info https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
 	autoSlide: 10000, //10 seconds
+	autoSlideStoppable: false,
 	controls: false,
+	slideNumber: true,
 	progress: false,
 	loop: true,
 	transition: 'fade',
