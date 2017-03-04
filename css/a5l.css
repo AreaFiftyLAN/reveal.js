@@ -96,16 +96,16 @@ span.white-text{
 /*        Logo's             */
 /*---------------------------*/
 
-#topicus-logo {
-	background-image: url("../img/sponsors/topicus_logo.svg");
+#sogeti-logo {
+	background-image: url("../img/sponsors/sogeti-logo.png");
 }
 
-#innovattic-logo {
-	background-image: url("../img/sponsors/innovattic_logo.svg");
+#nutanix-logo {
+	background-image: url("../img/sponsors/nutanix-logo.png");
 }
 
-#keylane-logo {
-	background-image: url("../img/sponsors/keylane_logo.svg");
+#ogd-logo {
+	background-image: url("../img/sponsors/ogd-logo.png");
 }
 
 .reveal img.spam-logo{
